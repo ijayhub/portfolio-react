@@ -32,9 +32,7 @@ const About = () => {
 								className='img-fluid about2-img pt-5 d-none d-md-block d-lg-block slide '
 							/>
 						</div>
-						<a
-							href='https://docs.google.com/document/d/1wx54LsYGX8juDeIRdDYrYCjMvOS5rY_l/edit'
-							target=' _blank'>
+						<a href='https://drive.google.com/drive/my-drive' target=' _blank'>
 							<button
 								className='border-0 p-3 rounded-2 mb-4 hero-hover'
 								onClick={handleClick}>
