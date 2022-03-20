@@ -14,15 +14,16 @@ const About = () => {
 						<div className='col-md-6 text-white '>
 							<h3 className='fs-2 about-text'>About me</h3>
 							<p className='lh-lg slide'>
-								Hi, I'm Ijeoma a self-taught front-end developer....supportive,
-								reliable your information is secured,patient,observant. I come
-								from a non-tech background but am passionate about web
-								development(frontend) and want to build a career in tech, am
-								going through online courses to improve my self and growth.I'm
+								Hi, I'm Ijeoma, a self-taught front-end developer... supportive,
+								reliable, your information is secured, patient, and observant. I
+								come from a non-tech background but am passionate about web
+								development (frontend) and want to build a career in tech, am
+								going through online courses to improve myself and grow
 								passionate about leveraging my skills to give users an amazing
-								client-side experience. My collaborative skill has helped me
-								deliver well in my projects. Being diligent i'm open to Contract
-								jobs and Collaboration projects. You can always reach out to me.
+								client-side experience. My collaborative skills have helped me
+								deliver well in my projects. Being diligent, I'm open to
+								contract jobs and collaboration projects. You can always reach
+								out to me.
 							</p>
 						</div>
 						<div className='col-md-6 about-img'>
