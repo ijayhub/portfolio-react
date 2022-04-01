@@ -34,7 +34,7 @@ const About = () => {
 							/>
 						</div>
 						<a
-							href='https://drive.google.com/file/d/1u7rMitKGcgQe9cocFuS_GIscgNGC728B/view?usp=sharinggi'
+							href='https://drive.google.com/file/d/1AdVufH_VorKHQhLiKZP0503AhIVyQI-X/view?usp=sharing'
 							target=' _blank'>
 							<button
 								className='border-0 p-3 rounded-2 mb-4 hero-hover'
