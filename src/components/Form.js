@@ -18,9 +18,7 @@ const Form1 = () => {
 					<div className='row'>
 						<div className='col text-center'>
 							<h4 className='display-5 fw-bold'>SAY HELLO</h4>
-							<p className='text-muted'>
-								Keep in touch with me for amazing responsive website.
-							</p>
+							
 						</div>
 					</div>
 					<div className='col'>

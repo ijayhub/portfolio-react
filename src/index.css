@@ -112,3 +112,44 @@ body {
   }
 }
 
+/* animation for works */
+.slide-in-right{
+  animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both
+}
+@keyframes slide-in-right{
+  0%{
+    transform:translateX(1000px);
+    opacity:0;
+  }
+  100%{
+    transform:translateX(0);
+    opacity:1;
+  }
+}
+
+.slide-in-bottom{
+  animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both
+}
+@keyframes slide-in-bottom{
+  0%{
+    transform:translateY(1000px);
+    opacity:0;
+  }
+  100%{
+    transform:translateY(0);
+    opacity:1;
+  }
+}
+.slide-in-left{
+  animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both
+}
+@keyframes slide-in-left{
+  0%{
+    transform:translateX(-1000px);
+    opacity:0;
+  }
+  100%{
+    transform:translateX(0);
+    opacity:1;
+  }
+}
