@@ -1,7 +1,7 @@
 import React from 'react'
-import video2 from '../Video/blog.mp4';
 import video3 from '../Video/house.mp4';
 import travelTour from '../img/travelTour.png'
+import reminderApp from '../img/reminder-app.png'
 
 
 
@@ -10,8 +10,8 @@ const Works = () => {
 	const travel = 'https://fun-travel.vercel.app/'
 	const travelGit = 'https://github.com/ijayhub/fun-travel';
 	
-	const blog = ' https://reactblogcr.netlify.app';
-	const blogGit = 'https://github.com/ijayhub/blog-react-web-app';
+	const reminder = 'https://ijayhub.github.io/Birthday-reminder/';
+	const reminderGit ='https://github.com/ijayhub/Birthday-reminder/tree/master';
 	const house = 'https://crhse.netlify.app';
 	const houseGit = 'https://github.com/ijayhub/housing-sass';
 
@@ -47,17 +47,22 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-bottom'>
-							<iframe title='Camp' src={video2}></iframe>
+							<img
+								src={reminderApp}
+								alt={reminderApp}
+								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
+							/>
+
 							<p>
 								<a
-									href={blog}
+									href={reminder}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark px-3'>
 									Live Link to the work
 								</a>
 								<a
-									href={blogGit}
+									href={reminderGit}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark'>
