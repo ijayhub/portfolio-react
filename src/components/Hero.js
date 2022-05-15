@@ -17,7 +17,7 @@ const Hero = () => {
 							<h2 className='lh-lg'>A frontend developer</h2>
 							<p className='lh-lg'>Building websites is what i do</p>
 							<a href='#contact'>
-								<button className='bg-btn btn-primary p-4 rounded-pill border-0 shadow'>
+								<button className='bg-btn btn-primary p-4 rounded-pill border-0 shadow mb-5'>
 									Get in touch
 								</button>
 							</a>

@@ -1,5 +1,5 @@
 import React from 'react'
-import video3 from '../Video/house.mp4';
+import mealGenerator from '../img/meal generator.jpeg'
 import travelTour from '../img/travelTour.png'
 import reminderApp from '../img/reminder-app.png'
 
@@ -12,8 +12,8 @@ const Works = () => {
 	
 	const reminder = 'https://ijayhub.github.io/Birthday-reminder/';
 	const reminderGit ='https://github.com/ijayhub/Birthday-reminder/tree/master';
-	const house = 'https://crhse.netlify.app';
-	const houseGit = 'https://github.com/ijayhub/housing-sass';
+	const meal = 'meal-webapp.netlify.app';
+	const mealGit = 'https://github.com/ijayhub/meal-app';
 
     return (
 			<div className='bg-light' id='portfolio'>
@@ -71,20 +71,21 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-left'>
-							<iframe
-								title='Camp'
-								src={video3}
-								className='text-center'></iframe>
+							<img
+								src={mealGenerator}
+								alt={mealGenerator}
+								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
+							/>
 							<p>
 								<a
-									href={house}
+									href={meal}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='px-3 text-dark'>
 									Live Link to the work
 								</a>
 								<a
-									href={houseGit}
+									href={mealGit}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark'>
