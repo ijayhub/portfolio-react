@@ -9,11 +9,13 @@ const About = () => {
 	};
     return (
 			<div className='bg-primary pb-5 ' id='about'>
-				<div className='container'>
+				<div className='container mt-5'>
+					<h3 className='fw-bold text-center display-5  text-white'>
+						About me
+					</h3>
 					<div className='row about'>
 						<div className='col-md-6 text-white '>
-							<h3 className='fs-2 about-text'>About me</h3>
-							<p className='lh-lg slide'>
+							<p className='lh-lg about-text slide'>
 								Hi, I'm Ijeoma, a front-end developer... supportive, reliable,
 								your information is secured, patient, and observant. I come from
 								a non-tech background but am passionate about web development

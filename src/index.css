@@ -80,14 +80,16 @@ body {
   padding-top:5rem;
 }
 .about-text{
-  margin-top:5rem;
+  text-align:justify;
 }
+
 .about-img{
   position: relative;
 }
 .about2-img{
   position:absolute;
   bottom:1px;
+  
 }
 .slide{
   display:block;
@@ -152,5 +154,8 @@ body {
   .navigation{
     font-size:14px;
   } 
+  .about{
+  padding-top:2rem;
+}
  
 }

@@ -15,7 +15,7 @@ const NavigationBar = () => {
 					<Navbar.Toggle aria-controls='navbarScroll' />
 					<Navbar.Collapse
 						id='navbarScroll'
-						className='btn-pad overflow-hidden'>
+						className='btn-pad'>
 						<Nav
 							className='me-auto my-2 my-lg-0 mx-2  '
 							style={{ maxHeight: '300px' }}
