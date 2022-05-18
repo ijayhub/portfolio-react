@@ -1,5 +1,5 @@
 import React from 'react'
-import mealGenerator from '../img/meal generator.jpeg'
+import mealGenerator from '../img/mealGenerator.jpeg'
 import travelTour from '../img/travelTour.png'
 import reminderApp from '../img/reminder-app.png'
 
