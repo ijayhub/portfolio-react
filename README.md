@@ -2,7 +2,7 @@
 
 This project was built with react-bootstrapped,
 ## Overview
-LIVE LINK:- https://meal-webapp.netlify.app
+LIVE LINK:- https://portfolio-ijay.netlify.app/
 
 GITHUB LINK CODES:- https://github.com/ijayhub/portfolio-react
 
