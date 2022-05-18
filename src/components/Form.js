@@ -14,11 +14,10 @@ const Form1 = () => {
 	
     return (
 			<div id='contact'>
-				<div className='container mt-5'>
-					<div className='row'>
+				<div className='container mt-5 slide-in-left'>
+					<div className='row '>
 						<div className='col text-center'>
 							<h4 className='display-5 fw-bold'>SAY HELLO</h4>
-							
 						</div>
 					</div>
 					<div className='col'>

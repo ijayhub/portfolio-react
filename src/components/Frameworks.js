@@ -7,7 +7,7 @@ import tailwind from '../img/tailwind.png';
 
 const Frameworks = () => {
     return (
-			<div className='bg-hero overflow-hidden ' id='skills'>
+			<div className='bg-hero' id='skills'>
 				<div className='container'>
 					<h3 className='display-3 text-center mb-3 text-white fw-bold'>
 						Frameworks

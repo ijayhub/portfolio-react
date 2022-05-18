@@ -148,6 +148,9 @@ body {
 @media only screen and (max-width:600px){
   .company-logo{
     font-size:14px;
+  }
+  .navigation{
+    font-size:14px;
   } 
  
 }

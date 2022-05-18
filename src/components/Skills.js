@@ -9,14 +9,14 @@ import git from '../img/git.png'
 
 const Skills = () => {
     return (
-			<div className='bg-hero overflow-hidden ' id='skills'>
+			<div className='bg-hero' id='skills'>
 				<div className='container'>
-					<h3 className='display-3 text-center my-5 text-white fw-bold'>
+					<h3 className='display-3 text-center mt-3 text-white fw-bold'>
 						My Skills
 					</h3>
 					<Carousel>
 						<Carousel.Item>
-							<img className='d-block w-25 h-25' src={html} alt='First slide' />
+						<img className='d-block w-25 h-25' src={html} alt='First slide' />
 						</Carousel.Item>
 						<Carousel.Item>
 							<img className='d-block w-25 h-25' src={css} alt='Second slide' />

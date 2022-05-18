@@ -5,7 +5,7 @@ const NavigationBar = () => {
 	const blogLink = 'https://ijaycent.hashnode.dev/';
 	return (
 		<div>
-			<Navbar bg='dark' expand='lg' className='fixed-top overflow-hidden'>
+			<Navbar bg='dark' expand='lg' className='fixed-top '>
 				<Container>
 					<Navbar.Brand
 						href='#'
@@ -20,22 +20,32 @@ const NavigationBar = () => {
 							className='me-auto my-2 my-lg-0 mx-2  '
 							style={{ maxHeight: '300px' }}
 							navbarScroll>
-							<Nav.Link href='/' className='text-white lh-lg'>
+							<Nav.Link href='/' className='text-white lh-lg navigation'>
 								Home
 							</Nav.Link>
-							<Nav.Link href='#about' className='text-white lh-lg'>
+							<Nav.Link href='#about' className='text-white lh-lg navigation'>
 								About
 							</Nav.Link>
-							<Nav.Link href={blogLink} target='_blank' rel='noreferrer' className='text-white lh-lg'>
-									Blog
+							<Nav.Link
+								href={blogLink}
+								target='_blank'
+								rel='noreferrer'
+								className='text-white lh-lg navigation'>
+								Blog
 							</Nav.Link>
-							<Nav.Link href='#skills' className='text-white btn-pad lh-lg'>
+							<Nav.Link
+								href='#skills'
+								className='text-white btn-pad lh-lg navigation'>
 								Skills
 							</Nav.Link>
-							<Nav.Link href='#portfolio' className='text-white btn-pad lh-lg'>
+							<Nav.Link
+								href='#portfolio'
+								className='text-white btn-pad lh-lg navigation'>
 								Portfolio
 							</Nav.Link>
-							<Nav.Link href='#contact' className='text-white btn-pad lh-lg'>
+							<Nav.Link
+								href='#contact'
+								className='text-white btn-pad lh-lg navigation'>
 								Contact
 							</Nav.Link>
 						</Nav>
