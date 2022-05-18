@@ -12,7 +12,7 @@ const Works = () => {
 	
 	const reminder = 'https://ijayhub.github.io/Birthday-reminder/';
 	const reminderGit ='https://github.com/ijayhub/Birthday-reminder/tree/master';
-	const meal = 'meal-a0q43s55d-ijayhub.vercel.app';
+	const meal = 'meal-webapp.netlify.app';
 	const mealGit = 'https://github.com/ijayhub/meal-app';
 
     return (
