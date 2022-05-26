@@ -1,7 +1,7 @@
 import React from 'react'
 import mealGenerator from '../img/mealGenerator.jpeg'
 import travelTour from '../img/travelTour.png'
-import reminderApp from '../img/reminder-app.png'
+import galleryClick from '../img/gallery-click.png'
 
 
 
@@ -10,8 +10,8 @@ const Works = () => {
 	const travel = 'https://fun-travel.vercel.app/'
 	const travelGit = 'https://github.com/ijayhub/fun-travel';
 	
-	const reminder = 'https://ijayhub.github.io/Birthday-reminder/';
-	const reminderGit ='https://github.com/ijayhub/Birthday-reminder/tree/master';
+	const gallery = 'https://ijayhub.github.io/gallery-click/';
+	const galleryGit = 'https://github.com/ijayhub/gallery-click';
 	const meal = 'https://meal-webapp.netlify.app';
 	const mealGit = 'https://github.com/ijayhub/meal-app';
 
@@ -48,21 +48,21 @@ const Works = () => {
 						</div>
 						<div class='col-md-4 slide-in-bottom'>
 							<img
-								src={reminderApp}
-								alt={reminderApp}
+								src={galleryClick}
+								alt={galleryClick}
 								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
 							/>
 
 							<p>
 								<a
-									href={reminder}
+									href={gallery}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark px-3'>
 									Live Link to the work
 								</a>
 								<a
-									href={reminderGit}
+									href={galleryGit}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark'>
