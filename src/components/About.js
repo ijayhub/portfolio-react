@@ -18,11 +18,8 @@ const About = () => {
 							<p className='lh-lg about-text slide text-center'>
 								Hi, I'm Ijeoma, a front-end developer... supportive, reliable,
 								your information is secured, patient, and observant. I come from
-								a non-tech background but am passionate about web development
-								(frontend) and want to build a career in tech, am going through
-								online courses to improve myself and grow passionate about
-								leveraging my skills to give users an amazing client-side
-								experience. My collaborative skills have helped me deliver well
+								a non-tech background, passionate about web development
+								(frontend) and want to build a career in tech. My collaborative skills have helped me deliver well
 								in my projects. Being diligent, I'm open to contract jobs and
 								collaboration projects. You can always reach out to me.
 							</p>
