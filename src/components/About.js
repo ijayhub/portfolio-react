@@ -1,5 +1,5 @@
 import React from 'react'
-import Ijay from '../img/Ijeoma.png'
+
 import { useState } from 'react'
 
 const About = () => {
@@ -9,13 +9,13 @@ const About = () => {
 	};
     return (
 			<div className='bg-primary pb-5 ' id='about'>
-				<div className='container mt-5'>
+				<div className='m-5'>
 					<h3 className='fw-bold text-center display-5  text-white'>
 						About me
 					</h3>
 					<div className='row about'>
-						<div className='col-md-6 text-white '>
-							<p className='lh-lg about-text slide'>
+						<div className='col-md-12 container text-white '>
+							<p className='lh-lg about-text slide text-center'>
 								Hi, I'm Ijeoma, a front-end developer... supportive, reliable,
 								your information is secured, patient, and observant. I come from
 								a non-tech background but am passionate about web development
@@ -27,22 +27,18 @@ const About = () => {
 								collaboration projects. You can always reach out to me.
 							</p>
 						</div>
-						<div className='col-md-6 about-img'>
-							<img
-								src={Ijay}
-								alt='ijay-img'
-								className='img-fluid about2-img pt-5 d-none d-md-block d-lg-block slide '
-							/>
+						
+						<div className="d-flex justify-content-center">
+							<a
+								href='https://drive.google.com/file/d/1zwAabE7gxiVPNfgGyGcZhfCyAWGvWRGS/view?usp=sharing'
+								target=' _blank'>
+								<button
+									className='border-0 p-3 rounded-2 mb-4 hero-hover '
+									onClick={handleClick}>
+									{hire}
+								</button>
+							</a>
 						</div>
-						<a
-							href='https://drive.google.com/file/d/1zwAabE7gxiVPNfgGyGcZhfCyAWGvWRGS/view?usp=sharing'
-							target=' _blank'>
-							<button
-								className='border-0 p-3 rounded-2 mb-4 hero-hover'
-								onClick={handleClick}>
-								{hire}
-							</button>
-						</a>
 					</div>
 				</div>
 			</div>

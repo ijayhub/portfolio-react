@@ -78,19 +78,12 @@ body {
 /* ..................about section.................. */
 .about{
   padding-top:5rem;
+
 }
 .about-text{
   text-align:justify;
 }
 
-.about-img{
-  position: relative;
-}
-.about2-img{
-  position:absolute;
-  bottom:1px;
-  
-}
 .slide{
   display:block;
   animation: slide 1s linear
