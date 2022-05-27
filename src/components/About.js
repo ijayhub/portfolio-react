@@ -33,7 +33,7 @@ const About = () => {
 								href='https://drive.google.com/file/d/1zwAabE7gxiVPNfgGyGcZhfCyAWGvWRGS/view?usp=sharing'
 								target=' _blank'>
 								<button
-									className='border-0 p-3 rounded-2 mb-4 hero-hover '
+									className='border-0 p-3 rounded-2 mb-4 hero-hover slide-in-bottom'
 									onClick={handleClick}>
 									{hire}
 								</button>
