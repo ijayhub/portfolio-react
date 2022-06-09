@@ -101,7 +101,7 @@ const Works = () => {
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-right '>
+						<div class='col-md-4 slide-in-left'>
 							<img
 								src={News}
 								alt={News}
@@ -124,7 +124,7 @@ const Works = () => {
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom'>
+						<div class='col-md-4 slide-in-right'>
 							<img
 								src={book}
 								alt={book}
@@ -148,7 +148,7 @@ const Works = () => {
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-left'>
+						<div class='col-md-4 slide-in-bottom'>
 							<img
 								src={Note}
 								alt={Note}
