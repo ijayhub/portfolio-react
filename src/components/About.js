@@ -16,13 +16,15 @@ const About = () => {
 					<div className='row about'>
 						<div className='col-md-12 container text-white '>
 							<p className='lh-lg about-text slide text-center'>
-								Hi, I'm Ijeoma, a front-end developer... supportive, reliable,
-								your information is secured, patient, and observant. I come from
-								a non-tech background, passionate about Web Development and want
-								to build a career in tech. My collaborative skills have helped
-								me deliver well in my projects. Being diligent, I'm open to
-								contract jobs and collaboration projects. You can always reach
-								out to me.
+								Hello, my name is Ijeoma, and I'm a front-end developer. I'm
+								supportive, dependable, patient, observant, and your information
+								is secure. Cooking, listening to music, and watching comedies
+								are some of my non-tech interests. My collaborative abilities
+								have assisted me in completing my projects successfully. I
+								believe that everyone should have access to education, and I
+								believe that this can be accomplished through technology. As
+								part of my diligence, I'm looking for contract jobs and
+								collaboration projects. You are always welcome to contact me.
 							</p>
 						</div>
 
