@@ -5,6 +5,7 @@ import galleryClick from '../img/gallery-click.png'
 import News from '../img/news.png'
 import book from '../img/bookapp.png'
 import Note from '../img/note-app.png'
+import Landing from '../img/travel-landing-page.png'
 
 
 
@@ -22,6 +23,8 @@ const Works = () => {
 	const BookGit = 'https://github.com/ijayhub/book-app';
 	const note = 'https://note-web-app.netlify.app';
 	const noteGit = 'https://github.com/ijayhub/note-app';
+	const landing = ' https://basic-landing-page-website.vercel.app';
+	const landingGit = 'https://github.com/ijayhub/basic-landing-page-website';
 
     return (
 			<div className='bg-light' id='portfolio'>
@@ -164,6 +167,29 @@ const Works = () => {
 								</a>
 								<a
 									href={noteGit}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='text-dark'>
+									Link to the GitHub codes
+								</a>
+							</p>
+						</div>
+						<div class='col-md-4 slide-in-bottom'>
+							<img
+								src={Landing}
+								alt={Landing}
+								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
+							/>
+							<p>
+								<a
+									href={landing}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='px-3 text-dark'>
+									Live Link to the work
+								</a>
+								<a
+									href={landingGit}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-dark'>
