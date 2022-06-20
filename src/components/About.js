@@ -21,7 +21,7 @@ const About = () => {
 								is secure. Cooking, listening to music, and watching comedies
 								are some of my non-tech interests. My collaborative abilities
 								have assisted me in completing my projects successfully. I
-								believe that everyone should have access to education, and I
+								believe that everyone should have access to education, have a skill be employable and I
 								believe that this can be accomplished through technology. As
 								part of my diligence, I'm looking for contract jobs and
 								collaboration projects. You are always welcome to contact me.
