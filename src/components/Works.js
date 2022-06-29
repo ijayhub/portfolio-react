@@ -27,14 +27,13 @@ const Works = () => {
 	const landingGit = 'https://github.com/ijayhub/basic-landing-page-website';
 
     return (
-			<div className='bg-light' id='portfolio'>
+			<div className='bg-hero' id='portfolio'>
 				<div className='container'>
-					<div className='col mt-5 text-center'>
-						<h2 className='display-3'>Portfolio</h2>
-						<p className='text-muted'>My Works</p>
+					<div className='col my-5 text-center'>
+						<h2 className='text-white display-4 fw-bolder pt-5 '>Portfolio</h2>
 					</div>
-					<div className='row '>
-						<div class='col-md-4 slide-in-right '>
+					<div className='row'>
+						<div class='col-md-4 slide-in-right px-5'>
 							<img
 								src={travelTour}
 								alt={travelTour}
@@ -45,19 +44,19 @@ const Works = () => {
 									href={travel}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark mx-2'>
+									className='mx-2  text-white'>
 									Live Link to the work
 								</a>
 								<a
 									href={travelGit}
 									target='_blank'
-									rel='noopener noreferrer'
-									className='text-dark'>
+									rel='noopener noreferrer '
+									className='mx-2  text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom'>
+						<div class='col-md-4 slide-in-bottom px-5'>
 							<img
 								src={galleryClick}
 								alt={galleryClick}
@@ -69,19 +68,19 @@ const Works = () => {
 									href={gallery}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark px-3'>
+									className='px-3 text-white'>
 									Live Link to the work
 								</a>
 								<a
 									href={galleryGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-left'>
+						<div class='col-md-4 slide-in-left px-5'>
 							<img
 								src={mealGenerator}
 								alt={mealGenerator}
@@ -92,19 +91,19 @@ const Works = () => {
 									href={meal}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-dark'>
+									className='px-3 text-white'>
 									Live Link to the work
 								</a>
 								<a
 									href={mealGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-left'>
+						<div class='col-md-4 slide-in-left px-5'>
 							<img
 								src={News}
 								alt={News}
@@ -115,19 +114,19 @@ const Works = () => {
 									href={news}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark mx-2'>
+									className='text-white mx-2'>
 									Live Link to the work
 								</a>
 								<a
 									href={newsGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-right'>
+						<div class='col-md-4 slide-in-right px-5'>
 							<img
 								src={book}
 								alt={book}
@@ -139,19 +138,19 @@ const Works = () => {
 									href={Book}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark px-3'>
+									className='text-white px-3'>
 									Live Link to the work
 								</a>
 								<a
 									href={BookGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom'>
+						<div class='col-md-4 slide-in-bottom px-5'>
 							<img
 								src={Note}
 								alt={Note}
@@ -162,19 +161,19 @@ const Works = () => {
 									href={note}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-dark'>
+									className='px-3 text-white'>
 									Live Link to the work
 								</a>
 								<a
 									href={noteGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom'>
+						<div class='col-md-4 slide-in-bottom px-5'>
 							<img
 								src={Landing}
 								alt={Landing}
@@ -185,14 +184,14 @@ const Works = () => {
 									href={landing}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-dark'>
+									className='px-3 text-white'>
 									Live Link to the work
 								</a>
 								<a
 									href={landingGit}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-dark'>
+									className='text-white'>
 									Link to the GitHub codes
 								</a>
 							</p>

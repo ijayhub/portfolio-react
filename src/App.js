@@ -3,7 +3,6 @@ import NavigationBar from './components/Navbar';
 import Hero from './components/Hero';
 import Companies from './components/Companies';
 import About from './components/About';
-import Service from './components/Service';
 import Skills from './components/Skills';
 import Frameworks from './components/Frameworks';
 import Works from './components/Works';
@@ -17,16 +16,13 @@ function App() {
       <NavigationBar />
       <Hero />
       <Companies />
-        <About />
-      <Service />
+      <About />
       <Skills />
       <Frameworks />
       <Works/>
       <Form1 />
       <Footer />
-      
-      
-		</div>
+    </div>
 	);
 }
 

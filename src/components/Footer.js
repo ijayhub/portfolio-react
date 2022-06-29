@@ -25,7 +25,7 @@ const Footer = () => {
 						<div className='col-md-4 mt-5'>
 							<h3 className='text-white display-6 fw-bold'>Page Links</h3>
 							<ul className='list-unstyled'>
- 								<a href='/' className='text-decoration-none'>
+								<a href='/' className='text-decoration-none'>
 									<li className='text-muted mb-2 fs-4'>Home</li>
 								</a>
 								<a href='#about' className='text-decoration-none'>
@@ -76,7 +76,7 @@ const Footer = () => {
 								target='_blank'
 								rel='noreferrer'
 								className='text-white text-decoration-none'>
-								Coded by &copy; Ijay🤍
+								Coded by &copy; Ijay💛
 							</a>
 						</p>
 					</div>

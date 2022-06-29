@@ -41,7 +41,7 @@ const NavigationBar = () => {
 							<Nav.Link
 								href='#portfolio'
 								className='text-white btn-pad lh-lg navigation'>
-								Portfolio
+								Works
 							</Nav.Link>
 							<Nav.Link
 								href='#contact'

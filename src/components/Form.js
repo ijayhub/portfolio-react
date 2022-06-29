@@ -17,7 +17,7 @@ const Form1 = () => {
 				<div className='container mt-5 slide-in-left'>
 					<div className='row '>
 						<div className='col text-center'>
-							<h4 className='display-5 fw-bold'>SAY HELLO</h4>
+							<h4 className='display-5 fw-bold text-warning'>SAY HELLO</h4>
 						</div>
 					</div>
 					<div className='col'>
@@ -56,7 +56,7 @@ const Form1 = () => {
 									href={link}
 									target='_blank'
 									rel='noreferrer'
-									className='btn btn-primary'>
+									className='btn btn-warning'>
 									Send
 								</a>
 							</Button>
