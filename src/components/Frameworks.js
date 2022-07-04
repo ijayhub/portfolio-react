@@ -60,7 +60,7 @@ const Frameworks = () => {
 									width='100px'
 									height='100px'
 								/>
-								<p className='fw-bold h2'>GIt</p>
+								<p className='fw-bold h2'>GIT</p>
 							</div>
 						</div>
 					</div>
