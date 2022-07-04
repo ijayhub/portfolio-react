@@ -45,7 +45,7 @@ const Footer = () => {
 						<div className='col-md-4 mt-5'>
 							<h3 className='text-white display-6 fw-bold'>Get in touch</h3>
 								<p>
-									<img src={mail} alt='mail' />{' '}
+									<img src={mail} alt='mail' />
 									<span className='fs-4 mb-2'> ijeonyi@gmail.com</span>
 								</p>
 							<div>
