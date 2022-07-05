@@ -1,6 +1,5 @@
 import React from 'react'
 import cr1 from '../img/cr1.png'
-import phone from '../img/phone-fill (1).svg'
 import mail from '../img/envelope-fill (1).svg'
 import li from '../img/linkedin.svg'
 import tw from '../img/twitter (1).svg'

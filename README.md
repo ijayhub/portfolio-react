@@ -1,11 +1,27 @@
-# Portfolio
+<div id="top"></div>
+<div align="center">
+    <h1>Portfolio</h1>
+</div>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#built-with">Built With</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#available-script">Available Script</a></li>
+            <li><a href="#dependencies">Dependencies</a></li>
+        </ul>
+    </li>      
+  </ol>
+</details>
 
-This project was built with react-bootstrapped,
-## Overview
-LIVE LINK:- https://portfolio-ijay.netlify.app/
+## About The Project
 
-GITHUB LINK CODES:- https://github.com/ijayhub/portfolio-react
-
+React-bootstrapped was used to create this project. It is simply a summary of my work.
 
 **Features**
 
@@ -15,18 +31,50 @@ GITHUB LINK CODES:- https://github.com/ijayhub/portfolio-react
 > Section on about me takes you to download the resume.
 > A section that displays my work.
 > A contact section.
+```
 
-```
-### Running this project
-```
-To Create this project:
+## Overview
 
-1. First create-react-app using(npx create-react-app@5.0.0).
-This create the react app locally
-2. In this project, i used react-bootstrap to create that you install it by using npm install react-bootstrap bootstrap@5.1.3 in your CLI.
-```
-#### Dependencies:
+* [Repo codes](https://github.com/ijayhub/portfolio-react)
+
+* [LIVE LINK](https://portfolio-ijay.netlify.app/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+* [React](https://reactjs.org/)
+
+* [React-bootstrap](https://react-bootstrap.github.io/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To get a local copy up and running follow these simple example steps:
+## Available Script
+
+In the project directory, you can run:
+
+ ### `npm start`
+
+Runs the app in the development mode.
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.
+
+You may also see any lint errors in the console.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Dependencies
+
 ```
 > npm install react-bootstrap
+
 > npm install react-router-dom@6 
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
