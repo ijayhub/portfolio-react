@@ -21,15 +21,16 @@ const About = () => {
 								is secure. Cooking, listening to music, and watching comedies
 								are some of my non-tech interests. My collaborative abilities
 								have assisted me in completing my projects successfully. I
-								believe that everyone should have access to education, have a skill be employable and I
-								believe that this can be accomplished through technology. I'm looking for contract jobs and
+								believe that everyone should have access to education, have a
+								skill be employable and I believe that this can be accomplished
+								through technology. I'm looking for contract jobs and
 								collaboration projects. You are always welcome to contact me.
 							</p>
 						</div>
 
 						<div className='d-flex justify-content-center'>
 							<a
-								href='https://drive.google.com/file/d/1LWd-2j4dFuD082A-yvnc78tJWk3GpkSo/view?usp=sharing'
+								href='https://drive.google.com/file/d/1zwAabE7gxiVPNfgGyGcZhfCyAWGvWRGS/view?usp=sharing'
 								target=' _blank'>
 								<button
 									className='border-0 p-3 rounded-2 mb-4 hero-hover slide-in-bottom'
