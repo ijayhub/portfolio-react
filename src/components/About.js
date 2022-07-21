@@ -23,8 +23,7 @@ const About = () => {
 								have assisted me in completing my projects successfully. I
 								believe that everyone should have access to education, have a
 								skill be employable and I believe that this can be accomplished
-								through technology. I'm looking for contract jobs and
-								collaboration projects. You are always welcome to contact me.
+								through technology.You are always welcome to contact me.
 							</p>
 						</div>
 
