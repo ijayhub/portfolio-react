@@ -33,29 +33,7 @@ const Works = () => {
 						<h2 className='text-white display-4 fw-bolder pt-5 '>Portfolio</h2>
 					</div>
 					<div className='row'>
-						<div class='col-md-4 slide-in-right px-5'>
-							<img
-								src={travelTour}
-								alt={travelTour}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
-							<p>
-								<a
-									href={travel}
-									target='_blank'
-									rel='noopener noreferrer'
-									className='mx-2  text-white'>
-									Live Link to the work
-								</a>
-								<a
-									href={travelGit}
-									target='_blank'
-									rel='noopener noreferrer '
-									className='mx-2  text-white'>
-									Link to the GitHub codes
-								</a>
-							</p>
-						</div>
+						
 						<div class='col-md-4 slide-in-bottom px-5'>
 							<img
 								src={galleryClick}
