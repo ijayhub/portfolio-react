@@ -1,6 +1,5 @@
 import React from 'react'
 import mealGenerator from '../img/mealGenerator.jpeg'
-import travelTour from '../img/travelTour.png'
 import galleryClick from '../img/gallery-click.png'
 import News from '../img/news.png'
 import book from '../img/bookapp.png'
@@ -11,8 +10,6 @@ import Landing from '../img/travel-landing-page.png'
 
 
 const Works = () => {
-	const travel = 'https://fun-travel.vercel.app/'
-	const travelGit = 'https://github.com/ijayhub/fun-travel';
 	const gallery = 'https://ijayhub.github.io/gallery-click/';
 	const galleryGit = 'https://github.com/ijayhub/gallery-click';
 	const meal = 'https://meal-webapp.netlify.app';
