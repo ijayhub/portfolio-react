@@ -6,9 +6,6 @@ import book from '../img/bookapp.png'
 import Note from '../img/note-app.png'
 import Landing from '../img/travel-landing-page.png'
 
-
-
-
 const Works = () => {
 	const gallery = 'https://ijayhub.github.io/gallery-click/';
 	const galleryGit = 'https://github.com/ijayhub/gallery-click';
@@ -29,7 +26,7 @@ const Works = () => {
 					<div className='col my-5 text-center'>
 						<h2 className='text-white display-4 fw-bolder pt-5 '>Portfolio</h2>
 					</div>
-					<div className='row'>
+					<div className='row '>
 						
 						<div class='col-md-4 slide-in-bottom px-5'>
 							<img
