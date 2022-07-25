@@ -71,7 +71,7 @@ const Footer = () => {
 								target='_blank'
 								rel='noreferrer'
 								className='text-white text-decoration-none'>
-								Coded by &copy; Ijay💛
+								Coded and developed by &copy; Ijeoma 
 							</a>
 						</p>
 					</div>
