@@ -16,12 +16,7 @@ const Form1 = () => {
 		setMessage('')
 		
 	}
-
-	
-	// const link='mailto: ijeonyi@gmail.com' 
-			
-	
-    return (
+	return (
 			<div id='contact'>
 				<div className='container mt-5 slide-in-left'>
 					<div className='col text-center'>
@@ -53,7 +48,7 @@ const Form1 = () => {
 								<Form.Group className='mb-3' controlId='formBasicPassword'>
 									<Form.Label>Your message</Form.Label>
 									<textarea
-										class='form-control'
+										className='form-control textarea'
 										id='exampleFormControlTextarea1'
 										rows='3'
 										value={message}
