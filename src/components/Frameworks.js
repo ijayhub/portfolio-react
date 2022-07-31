@@ -12,50 +12,46 @@ const Frameworks = () => {
 			<div id='skills'>
 				<div className='container'>
 					<div className='row'>
-						
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
-								<img src={sass} alt='sass' width='100px' height='100px' />
-								<p className='fw-bold h2'>SASS</p>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
+								<img
+									src={sass}
+									alt='sass'
+									width='100px'
+									height='100px'
+									className='text-center'
+								/>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3'>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3'>
 								<img
 									src={bootstrap}
 									alt='bootstrap'
 									width='100px'
 									height='100px'
 								/>
-								<p className='fw-bold h4'>BOOTSTRAP</p>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
 								<img
 									src={tailwind}
 									alt='tailwind'
 									width='100px'
 									height='100px'
 								/>
-								<p className='fw-bold h4'>TAILWIND</p>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
 								<img src={next} alt='next' width='100px' height='100px' />
-								<p className='fw-bold h2'>NEXT</p>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
-								<img
-									src={git}
-									alt='git'
-									width='100px'
-									height='100px'
-								/>
-								<p className='fw-bold h2'>GIT</p>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
+								<img src={git} alt='git' width='100px' height='100px' />
+								
 							</div>
 						</div>
 					</div>

@@ -15,26 +15,23 @@ const Skills = () => {
     return (
 			<div id='skills'>
 				<div className='container mt-5'>
-					<h2 className='text-center display-4 fw-bolder text-warning mb-3'>
+					<h2 className='text-center display-6 fw-bolder text-warning mb-3'>
 						SKILLS
 					</h2>
 					<div className='row'>
 						<div className='col-md-3 '>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
 								<img src={html} alt='html' width='100px' height='100px' />
-								<p className='fw-bold h2'>HTML5</p>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill  mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3'>
 								<img src={css} alt='css' width='100px' height='100px' />
-								<p className='fw-bold h2'>CSS3</p>
 							</div>
 						</div>
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill  mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
 								<img src={js} alt='js' width='100px' height='100px' />
-								<p className='fw-bold h2'>javascript</p>
 							</div>
 						</div>
 
@@ -45,9 +42,9 @@ const Skills = () => {
 							</div>
 						</div> */}
 						<div className='col-md-3'>
-							<div className='d-flex align-items-center justify-content-between shadow-lg p-4 bg-white rounded-pill mb-3 '>
+							<div className='d-flex align-items-center justify-content-center shadow-lg p-3 bg-white rounded mb-3 '>
 								<img src={react} alt='react' width='100px' height='100px' />
-								<p className='fw-bold h2'>REACT</p>
+								
 							</div>
 						</div>
 					</div>

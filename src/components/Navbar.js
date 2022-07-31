@@ -5,7 +5,7 @@ const NavigationBar = () => {
 	const blogLink = 'https://ijaycent.hashnode.dev/';
 	return (
 		<div>
-			<Navbar bg='dark' expand='lg' className='fixed-top '>
+			<Navbar bg='dark' expand='lg' className='fixed-top scroll '>
 				<Container>
 					<Navbar.Brand
 						href='#'

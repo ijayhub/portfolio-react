@@ -12,40 +12,40 @@ const Footer = () => {
     const twitter = 'https://twitter.com/ijaydimples'
     const instagram ='https://www.instagram.com/ij.ijay/';
     return (
-			<div className='bg-hero mt-5'>
+			<div className='bg-hero mt-5 scroll'>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-md-4 mt-5 '>
+						<div className='col-md-4 mt-3 '>
 							<img src={cr1} alt='' className='img-fluid mb-1 ' />
 							<h2 className='text-white navHeader display-6 fw-bold'>
 								CentRity
 							</h2>
 						</div>
 						<div className='col-md-4 mt-5'>
-							<h3 className='text-white display-6 fw-bold'>Page Links</h3>
+							<h3 className='text-white  fw-bold'>Page Links</h3>
 							<ul className='list-unstyled'>
 								<a href='/' className='text-decoration-none'>
-									<li className='text-muted mb-2 fs-4'>Home</li>
+									<li className='text-muted mb-2'>Home</li>
 								</a>
 								<a href='#about' className='text-decoration-none'>
-									<li className='text-muted mb-2 fs-4 '>About</li>
+									<li className='text-muted mb-2 '>About</li>
 								</a>
 								<a href='https://ijaycent.hashnode.dev/' className='text-decoration-none'>
-									<li className='text-muted mb-2 fs-4 '>Blog</li>
+									<li className='text-muted mb-2'>Blog</li>
 								</a>
 								<a href='#skill' className='text-decoration-none'>
-									<li className='text-muted mb-2 fs-4'>Skills</li>
+									<li className='text-muted mb-2'>Skills</li>
 								</a>
 								<a href='#contact' className='text-decoration-none'>
-									<li className='text-muted mb-2 fs-4'>Contact</li>
+									<li className='text-muted mb-2 '>Contact</li>
 								</a>
 							</ul>
 						</div>
 						<div className='col-md-4 mt-5'>
-							<h3 className='text-white display-6 fw-bold'>Get in touch</h3>
+							<h3 className='text-white fw-bold'>Get in touch</h3>
 								<p>
 									<img src={mail} alt='mail' />
-									<span className='fs-4 mb-2'> ijeonyi@gmail.com</span>
+									<span className='fs-6 mb-2 text-muted'> ijeonyi@gmail.com</span>
 								</p>
 							<div>
 								<a href={linkedin} target='_blank' rel='noreferrer'>

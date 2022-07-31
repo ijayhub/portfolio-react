@@ -9,8 +9,8 @@ const Hero = () => {
 		<div>
 			<header className='bg-hero'>
 				<div className='row '>
-					<div className='col-md-6 text-center text-white tracking-in-expand '>
-						<div>
+					<div className='col-sm-6 col-md-12 col-lg-6 text-center text-white tracking-in-expand '>
+						<div className=''>
 							<p className='display-6 hero-text'>
 								Hi<span> I'm</span>
 							</p>
@@ -24,8 +24,8 @@ const Hero = () => {
 							</a>
 						</div>
 					</div>
-					<div className="col-md-6 code">
-						<img src={code} alt="coder" />
+					<div className='col-md-6 code'>
+						<img src={code} alt='coder' />
 					</div>
 				</div>
 			</header>

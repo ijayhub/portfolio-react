@@ -8,57 +8,41 @@ import Landing from '../img/travel-landing-page.png'
 
 const Works = () => {
 	const gallery = 'https://ijayhub.github.io/gallery-click/';
-	const galleryGit = 'https://github.com/ijayhub/gallery-click';
 	const meal = 'https://meal-webapp.netlify.app';
-	const mealGit = 'https://github.com/ijayhub/meal-app';
 	const news = 'https://news-nytimes.netlify.app';
-	const newsGit = 'https://github.com/ijayhub/news-articles';
 	const Book = 'https://book-app1.netlify.app';
-	const BookGit = 'https://github.com/ijayhub/book-app';
 	const note = 'https://note-web-app.netlify.app';
-	const noteGit = 'https://github.com/ijayhub/note-app';
 	const landing = ' https://basic-landing-page-website.vercel.app';
-	const landingGit = 'https://github.com/ijayhub/basic-landing-page-website';
+	
 
     return (
-			<div className='bg-hero' id='portfolio'>
+			<div className='bg-hero scroll' id='portfolio'>
 				<div className='container'>
-					<div className='col my-5 text-center'>
-						<h2 className='text-white display-4 fw-bolder pt-5 '>Portfolio</h2>
+					<div className='col my-3 text-center'>
+						<h2 className='text-white display-4 fw-bolder pt-3 '>Portfolio</h2>
 					</div>
 					<div className='row '>
-						
-						<div class='col-md-4 slide-in-bottom px-5'>
-							<img
-								src={galleryClick}
-								alt={galleryClick}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
+						<div class='col-md-4 slide-in-bottom'>
+							<img src={galleryClick} alt={galleryClick} className='img-size' />
 
-							<p>
+							<p className='text-center'>
 								<a
 									href={gallery}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-white'>
+									className='text-white text-center'>
 									Live Link to the work
-								</a>
-								<a
-									href={galleryGit}
-									target='_blank'
-									rel='noopener noreferrer'
-									className='text-white'>
-									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-left px-5'>
+						<div class='col-md-4 slide-in-left'>
+							<div></div>
 							<img
 								src={mealGenerator}
 								alt={mealGenerator}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
+								className='img-size'
 							/>
-							<p>
+							<p className='text-center'>
 								<a
 									href={meal}
 									target='_blank'
@@ -66,105 +50,54 @@ const Works = () => {
 									className='px-3 text-white'>
 									Live Link to the work
 								</a>
-								<a
-									href={mealGit}
-									target='_blank'
-									rel='noopener noreferrer'
-									className='text-white'>
-									Link to the GitHub codes
-								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-left px-5'>
-							<img
-								src={News}
-								alt={News}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
-							<p>
+						<div class='col-md-4 slide-in-left'>
+							<img src={News} alt={News} className='img-size' />
+							<p className='text-center'>
 								<a
 									href={news}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-white mx-2'>
+									className='text-white '>
 									Live Link to the work
-								</a>
-								<a
-									href={newsGit}
-									target='_blank'
-									rel='noopener noreferrer'
-									className='text-white'>
-									Link to the GitHub codes
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-right px-5'>
-							<img
-								src={book}
-								alt={book}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
+						<div class='col-md-4 slide-in-right'>
+							<img src={book} alt={book} className='img-size' />
 
-							<p>
+							<p className='text-center'>
 								<a
 									href={Book}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-white px-3'>
-									Live Link to the work
-								</a>
-								<a
-									href={BookGit}
-									target='_blank'
-									rel='noopener noreferrer'
 									className='text-white'>
-									Link to the GitHub codes
+									Live Link to the work
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom px-5'>
-							<img
-								src={Note}
-								alt={Note}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
-							<p>
+						<div class='col-md-4 slide-in-bottom '>
+							<img src={Note} alt={Note} className='img-size' />
+							<p className='text-center'>
 								<a
 									href={note}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-white'>
-									Live Link to the work
-								</a>
-								<a
-									href={noteGit}
-									target='_blank'
-									rel='noopener noreferrer'
 									className='text-white'>
-									Link to the GitHub codes
+									Live Link to the work
 								</a>
 							</p>
 						</div>
-						<div class='col-md-4 slide-in-bottom px-5'>
-							<img
-								src={Landing}
-								alt={Landing}
-								style={{ width: '300px', height: '170px', objectFit: 'cover' }}
-							/>
-							<p>
+						<div class='col-md-4 slide-in-bottom'>
+							<img src={Landing} alt={Landing} className='img-size' />
+							<p className='d-flex align-items-center justify-content-center'>
 								<a
 									href={landing}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='px-3 text-white'>
-									Live Link to the work
-								</a>
-								<a
-									href={landingGit}
-									target='_blank'
-									rel='noopener noreferrer'
 									className='text-white'>
-									Link to the GitHub codes
+									Live Link to the work
 								</a>
 							</p>
 						</div>

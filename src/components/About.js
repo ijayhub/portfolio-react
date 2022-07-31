@@ -8,14 +8,14 @@ const About = () => {
 		setHire('Download Resume');
 	};
     return (
-			<div className='bg-primary pb-5 ' id='about'>
-				<div className='m-5'>
-					<h3 className='fw-bold text-center display-5  text-white'>
+			<div className='bg-primary p2-5 ' id='about'>
+				<div>
+					<h3 className='fw-bold text-center display-5 pt-2 text-white'>
 						About me
 					</h3>
 					<div className='row about'>
-						<div className='col-md-12 container text-white '>
-							<p className='lh-lg about-text slide text-center'>
+						<div className='col-md-6 container text-white '>
+							<p className='lh-lg about-text slide text-center '>
 								Hello, my name is Ijeoma, and I'm a front-end developer. I'm
 								supportive, dependable, patient, observant, and your information
 								is secure. Cooking, listening to music, and watching comedies

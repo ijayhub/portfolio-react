@@ -9,8 +9,16 @@ const Form1 = () => {
 	const [email, setEmail] = useState(' ')
 	const [message, setMessage] = useState(' ')
 
+	const handleSubmit = (e) => {
+		e.preventDefault()
+		setName('')
+		setEmail('')
+		setMessage('')
+		
+	}
+
 	
-	const link='mailto: ijeonyi@gmail.com' 
+	// const link='mailto: ijeonyi@gmail.com' 
 			
 	
     return (
@@ -20,8 +28,8 @@ const Form1 = () => {
 						<h4 className='display-5 fw-bold text-warning'>SAY HELLO</h4>
 					</div>
 					<div className='row '>
-						<div className='col-md-6'>
-							<Form>
+						<div className='col-sm-6 col-md-12 col-lg-6'>
+							<Form action='https://fabform.io/f/i6-HY8g' method='post' onSubmit={handleSubmit}>
 								<Form.Group className='mb-3' controlId='formBasicName'>
 									<Form.Label>Names</Form.Label>
 									<Form.Control
@@ -51,18 +59,14 @@ const Form1 = () => {
 										value={message}
 										onChange={(e) => setMessage(e.target.value)}></textarea>
 								</Form.Group>
-								<Button variant='primary' type='submit'>
-									<a
-										href={link}
-										target='_blank'
-										rel='noreferrer'
-										className='btn btn-warning'>
-										Send
-									</a>
+								<Button
+									type='submit'
+									className='btn btn-warning'>
+									Send
 								</Button>
 							</Form>
 						</div>
-						<div className='col-md-6'>
+						<div className='col-md-6 swirl-in-fwd'>
 							<img src={social} alt='social' className='code' />
 						</div>
 					</div>
