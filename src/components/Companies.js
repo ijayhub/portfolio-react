@@ -12,14 +12,14 @@ const Companies = () => {
 							<img
 								src={faang}
 								alt='company-logo'
-								className='img-fluid mt-4 company-logo'
+								className='img-fluid company-logo'
 							/>
 						</div>
 						<div className='col-md-6'>
 							<img
 								src={microsoft}
 								alt='company-logo'
-								className='img-fluid mt-4 company-logo'
+								className='img-fluid company-logo'
 							/>
 						</div>
 					</div>

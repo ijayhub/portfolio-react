@@ -8,7 +8,7 @@ const About = () => {
 		setHire('Download Resume');
 	};
     return (
-			<div className='bg-primary p2-5 ' id='about'>
+			<div className='bg-primary p2-5' id='about-me'>
 				<div>
 					<h3 className='fw-bold text-center display-5 pt-2 text-white'>
 						About me
@@ -20,8 +20,8 @@ const About = () => {
 								understanding, dependable, patient, perceptive, and your
 								information is safe with me. Some of my non-technical interests
 								include cooking, listening to music, and watching comedies. I've
-								been able to effectively complete my assignments and I collaborate with others.
-								I think that everyone should have
+								been able to effectively complete my assignments and I
+								collaborate with others. I think that everyone should have
 								access to education and the ability to find employment, and that
 								technology can make this possible. You can always contact me.
 							</p>

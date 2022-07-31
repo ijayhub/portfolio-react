@@ -23,7 +23,7 @@ const NavigationBar = () => {
 							<Nav.Link href='/' className='text-white lh-lg navigation'>
 								Home
 							</Nav.Link>
-							<Nav.Link href='#about' className='text-white lh-lg navigation'>
+							<Nav.Link href='#about-me' className='text-white lh-lg navigation'>
 								About
 							</Nav.Link>
 							<Nav.Link

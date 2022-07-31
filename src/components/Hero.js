@@ -14,7 +14,7 @@ const Hero = () => {
 							<p className='display-6 hero-text'>
 								Hi<span> I'm</span>
 							</p>
-							<h1 className='display-1 fw-bold text-warning'>Ijeoma Igboagu</h1>
+							<h1 className='display-3 fw-bold text-warning'>Ijeoma Igboagu</h1>
 							<h2 className='lh-lg'>A frontend developer</h2>
 							<p className='lh-lg'>Building websites is what i do</p>
 							<a href='#contact'>
