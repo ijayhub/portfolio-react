@@ -21,7 +21,7 @@ const About = () => {
 								information is safe with me. Some of my non-technical interests
 								include cooking, listening to music, and watching comedies. I've
 								been able to effectively complete my assignments and I
-								collaborate with others. I think that everyone should have
+								collaborate with others. Everyone should have
 								access to education and the ability to find employment, and that
 								technology can make this possible. You can always contact me.
 							</p>
@@ -29,7 +29,7 @@ const About = () => {
 
 						<div className='d-flex justify-content-center'>
 							<a
-								href='https://drive.google.com/file/d/1PwRc_LA-4gwly4EJBGtpgcJkX5lfjwMb/view?usp=sharing'
+								href='https://drive.google.com/file/d/1yJAos6ea05rvR0TcY_uzXZFe0qlv71in/view?usp=sharing'
 								target=' _blank'>
 								<button
 									className='border-0 p-3 rounded-2 mb-4 hero-hover slide-in-bottom'
