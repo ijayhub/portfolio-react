@@ -22,7 +22,7 @@ const About = () => {
 								include cooking, listening to music, and watching comedies. I've
 								been able to effectively complete my assignments and I
 								collaborate with others. Everyone should have
-								access to education and the ability to find employment, and that
+								access to education and the ability to find employment, and i believe with
 								technology can make this possible. You can always contact me.
 							</p>
 						</div>
