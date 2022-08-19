@@ -3,7 +3,7 @@ import mealGenerator from '../img/mealGenerator.jpeg'
 import galleryClick from '../img/gallery-click.png'
 import News from '../img/news.png'
 import book from '../img/bookapp.png'
-import Note from '../img/note-app.png'
+import Cocktail from '../img/cocktail.png'
 import Landing from '../img/travel-landing-page.png'
 
 const Works = () => {
@@ -11,7 +11,7 @@ const Works = () => {
 	const meal = 'https://meal-webapp.netlify.app';
 	const news = 'https://news-nytimes.netlify.app';
 	const Book = 'https://book-app1.netlify.app';
-	const note = 'https://note-web-app.netlify.app';
+	const cocktail = 'https://cocktail-d.netlify.app/';
 	const landing = ' https://basic-landing-page-website.vercel.app';
 	
 
@@ -78,10 +78,10 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-bottom '>
-							<img src={Note} alt={Note} className='img-size' />
+							<img src={Cocktail} alt={Cocktail} className='img-size' />
 							<p className='text-center'>
 								<a
-									href={note}
+									href={cocktail}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-white'>
