@@ -10,8 +10,7 @@ const Form1 = () => {
 	const [email, setEmail] = useState(' ')
 	const [message, setMessage] = useState(' ')
 
-	const handleSubmit = (e) => {
-		e.preventDefault()
+	const handleSubmit = () => {
 		setName('')
 		setEmail('')
 		setMessage('')
@@ -32,6 +31,7 @@ const Form1 = () => {
 							<Form.Group className='mb-3' controlId='formBasicName'>
 								<Form.Label>Names</Form.Label>
 								<Form.Control
+									name="name"
 									type='text'
 									value={name}
 									onChange={(e) => setName(e.target.value)}
@@ -40,6 +40,7 @@ const Form1 = () => {
 							<Form.Group className='mb-3' controlId='formBasicEmail'>
 								<Form.Label>Email address</Form.Label>
 								<Form.Control
+									name="email"
 									type='email'
 									placeholder='Enter email'
 									value={email}
@@ -52,6 +53,7 @@ const Form1 = () => {
 							<Form.Group className='mb-3' controlId='formBasicPassword'>
 								<Form.Label>Your message</Form.Label>
 								<textarea
+									name="message"
 									className='form-control textarea'
 									id='exampleFormControlTextarea1'
 									rows='3'
