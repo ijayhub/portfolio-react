@@ -27,14 +27,19 @@ const Footer = () => {
 								<a href='/' className='text-decoration-none'>
 									<li className='text-muted mb-2'>Home</li>
 								</a>
-								<a href='#about' className='text-decoration-none'>
-									<li className='text-muted mb-2 '>About</li>
+								<a href='#about-me' className='text-decoration-none'>
+									<li className='text-muted mb-2'>About</li>
 								</a>
-								<a href='https://ijaycent.hashnode.dev/' className='text-decoration-none'>
+								<a
+									href='https://ijaycent.hashnode.dev/'
+									className='text-decoration-none'>
 									<li className='text-muted mb-2'>Blog</li>
 								</a>
-								<a href='#skill' className='text-decoration-none'>
+								<a href='#skills' className='text-decoration-none'>
 									<li className='text-muted mb-2'>Skills</li>
+								</a>
+								<a href='#portfolio' className='text-decoration-none'>
+									<li className='text-muted mb-2'>Works</li>
 								</a>
 								<a href='#contact' className='text-decoration-none'>
 									<li className='text-muted mb-2 '>Contact</li>
@@ -43,10 +48,10 @@ const Footer = () => {
 						</div>
 						<div className='col-md-4 mt-5'>
 							<h3 className='text-white fw-bold'>Get in touch</h3>
-								<p>
-									<img src={mail} alt='mail' />
-									<span className='fs-6 mb-2 text-muted'> ijeonyi@gmail.com</span>
-								</p>
+							<p>
+								<img src={mail} alt='mail' />
+								<span className='fs-6 mb-2 text-muted'> ijeonyi@gmail.com</span>
+							</p>
 							<div>
 								<a href={linkedin} target='_blank' rel='noreferrer'>
 									<img src={li} alt='linkedin' className='me-3' />
@@ -71,7 +76,7 @@ const Footer = () => {
 								target='_blank'
 								rel='noreferrer'
 								className='text-white text-decoration-none'>
-								Coded and developed by &copy; Ijeoma 
+								Coded and developed by &copy; Ijeoma
 							</a>
 						</p>
 					</div>
