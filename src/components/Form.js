@@ -10,12 +10,7 @@ const Form1 = () => {
 	const [email, setEmail] = useState(' ')
 	const [message, setMessage] = useState(' ')
 
-	const handleSubmit = () => {
-		setName('')
-		setEmail('')
-		setMessage('')
-		
-	}
+	
 	return (
 		<div id='contact'>
 			<div className='container mt-5 slide-in-left'>
@@ -27,7 +22,7 @@ const Form1 = () => {
 						<Form
 							action='https://fabform.io/f/i6-HY8g'
 							method='post'
-							onSubmit={handleSubmit}>
+							>
 							<Form.Group className='mb-3' controlId='formBasicName'>
 								<Form.Label>Names</Form.Label>
 								<Form.Control
