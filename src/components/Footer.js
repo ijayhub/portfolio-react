@@ -68,9 +68,9 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<hr className='mt-5' />
-					<div className='text-center '>
-						<p className='mt-5'>
+					<hr />
+					<div className='text-center'>
+						<p className='pt-5'>
 							<a
 								href='http://github.com/ijayhub'
 								target='_blank'
