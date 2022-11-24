@@ -29,7 +29,7 @@ const About = () => {
 
 						<div className='d-flex justify-content-center'>
 							<a
-								href='https://drive.google.com/file/d/1tC_-4HIsYP2vysIq3MxA9gvG9kKcFWgH/view?usp=share_link'
+								href='https://drive.google.com/file/d/1yDkviOfPEPC0bvOWgEPHDshYeFQD3bI3/view?usp=share_link'
 								target=' _blank'>
 								<button
 									className='border-0 p-3 rounded-2 mb-4 hero-hover slide-in-bottom'
