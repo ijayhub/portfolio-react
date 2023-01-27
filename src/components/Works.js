@@ -1,16 +1,16 @@
 import React from 'react'
 import mealGenerator from '../img/mealGenerator.jpeg'
-import galleryClick from '../img/gallery-click.png'
+import chart1 from '../img/chart.jpg'
 import News from '../img/news.png'
-import book from '../img/bookapp.png'
+import menulist from '../img/menulist.gif'
 import Cocktail from '../img/cocktail.png'
 import Landing from '../img/travel-landing-page.png'
 
 const Works = () => {
-	const gallery = 'https://ijayhub.github.io/gallery-click/';
+	const chart= 'https://react-barchart-dashboard.netlify.app';
 	const meal = 'https://meal-webapp.netlify.app';
 	const news = 'https://news-nytimes.netlify.app';
-	const Book = 'https://book-app1.netlify.app';
+	const Menu = 'https://nigerian-meals.netlify.app/';
 	const cocktail = 'https://cocktail-d.netlify.app/';
 	const landing = ' https://basic-landing-page-website.vercel.app';
 	
@@ -23,11 +23,11 @@ const Works = () => {
 					</div>
 					<div className='row '>
 						<div class='col-md-4 slide-in-bottom'>
-							<img src={galleryClick} alt={galleryClick} className='img-size' />
+							<img src={chart1} alt={chart1} className='img-size' />
 
 							<p className='text-center'>
 								<a
-									href={gallery}
+									href={chart}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-white text-center'>
@@ -65,11 +65,11 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-right'>
-							<img src={book} alt={book} className='img-size' />
+							<img src={menulist} alt={menulist} className='img-size' />
 
 							<p className='text-center'>
 								<a
-									href={Book}
+									href={Menu}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-white'>
