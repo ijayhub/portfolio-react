@@ -1,18 +1,18 @@
 import React from 'react'
-import mealGenerator from '../img/mealGenerator.jpeg'
+import meal from '../img/meal.gif'
 import chart1 from '../img/chart.jpg'
 import News from '../img/news.png'
 import menulist from '../img/menulist.gif'
 import Cocktail from '../img/cocktail.png'
-import Landing from '../img/travel-landing-page.png'
+import medication from '../img/medication.gif'
 
 const Works = () => {
 	const chart= 'https://react-barchart-dashboard.netlify.app';
-	const meal = 'https://meal-webapp.netlify.app';
+	const Meal = 'https://meal-webapp.netlify.app';
 	const news = 'https://news-nytimes.netlify.app';
 	const Menu = 'https://nigerian-meals.netlify.app/';
 	const cocktail = 'https://cocktail-d.netlify.app/';
-	const landing = ' https://basic-landing-page-website.vercel.app';
+	const Medication = 'https://medication-builder.netlify.app';
 	
 
     return (
@@ -38,13 +38,13 @@ const Works = () => {
 						<div class='col-md-4 slide-in-left'>
 							<div></div>
 							<img
-								src={mealGenerator}
-								alt={mealGenerator}
+								src={meal}
+								alt={meal}
 								className='img-size'
 							/>
 							<p className='text-center'>
 								<a
-									href={meal}
+									href={Meal}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='px-3 text-white'>
@@ -90,10 +90,10 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-bottom'>
-							<img src={Landing} alt={Landing} className='img-size' />
+							<img src={medication} alt={medication} className='img-size' />
 							<p className='d-flex align-items-center justify-content-center'>
 								<a
-									href={landing}
+									href={Medication}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-white'>
