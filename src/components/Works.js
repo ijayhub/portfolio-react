@@ -1,7 +1,7 @@
 import React from 'react'
 import meal from '../img/meal.gif'
 import chart1 from '../img/chart.jpg'
-import News from '../img/news.png'
+import books from '../img/google-book-apl.gif'
 import menulist from '../img/menulist.gif'
 import Cocktail from '../img/cocktail.png'
 import medication from '../img/medication.gif'
@@ -9,7 +9,7 @@ import medication from '../img/medication.gif'
 const Works = () => {
 	const chart= 'https://react-barchart-dashboard.netlify.app';
 	const Meal = 'https://meal-webapp.netlify.app';
-	const news = 'https://news-nytimes.netlify.app';
+	const Books = 'https://books-web-app.netlify.app/';
 	const Menu = 'https://nigerian-meals.netlify.app/';
 	const cocktail = 'https://cocktail-d.netlify.app/';
 	const Medication = 'https://medication-builder.netlify.app';
@@ -53,10 +53,10 @@ const Works = () => {
 							</p>
 						</div>
 						<div class='col-md-4 slide-in-left'>
-							<img src={News} alt={News} className='img-size' />
+							<img src={books} alt={books} className='img-size' />
 							<p className='text-center'>
 								<a
-									href={news}
+									href={Books}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-white '>
